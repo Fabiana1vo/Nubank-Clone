@@ -1,0 +1,102 @@
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+  margin-top:30px;  
+}
+
+.menu{
+    width: 100%;
+    height: 20px;
+    background: white;
+    padding:10px 0px 50px 50px;
+    position: fixed;
+    align-items: center;
+    top: 0;
+}
+
+.logo{
+    display: block;
+    float: left;
+    margin-top: 10px;
+}
+
+.menu-nubank {
+    max-width: 100%;
+    float: left;
+    
+}
+.menu-nubank li {
+    margin-top: 10px;
+    display: inline-block;
+
+}
+.menu-nubank a {
+    display: block;
+    text-decoration: none;
+    margin-left: 33px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    
+}
+
+.login li {
+    display: inline-block;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-right:50px ;
+}
+
+.login {
+    float: right;
+}
+
+.login a {
+    text-decoration: none;
+    color: #820ad1;
+}
+
+
+/* Inicio do Hero */
+
+.img{
+     background-size: cover;
+    min-height: calc(100vh - 3.5rem);
+    background-image: url("https://nubank.com.br/images-cms/1668630922-home_bolao_desk.jpg?w=1152&dpr=2&auto=compress&fm=webp");
+    background-position: center bottom;
+ 
+ 
+}
+
+.img h1{
+    padding: 250px 0 0 0;
+    margin-left: 120px;
+    margin-bottom: 10px;
+    font-family: 'Cabin', sans-serif;
+    color: #FFF;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.img h2{
+    margin-left: 120px;
+    font-family: 'Cabin', sans-serif;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+/* Fim do Hero */
